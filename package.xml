@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>mummer_navigation_config</name>
+
+  <version>0.0.1</version>
+
+  <description>configuration and launch fiels for navigation package for the laas robots</description>
+
+  <maintainer email="gbuisan@laas.fr">guilhem buisan</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

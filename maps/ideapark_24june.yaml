@@ -1,0 +1,6 @@
+image: ideapark_24june.pgm
+resolution: 0.2857142857142857
+origin: [-25.71428571428571, -38.57142857142857, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
