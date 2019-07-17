@@ -1,16 +1,16 @@
 ## Robot Configuration Parameters
-acc_lim_x: 0.3
-acc_lim_theta: 0.75
-max_vel_x: 0.35
+acc_lim_x: 0.6
+acc_lim_theta: 1.0
+max_vel_x: 0.65
 max_vel_x_backwards: 0.05
-max_vel_theta: 1.0
+max_vel_theta: 1.5
 # The following parameters are relevant only for carlike robots:
 min_turning_radius: 0.0
 wheelbase: 1.0
 cmd_angle_instead_rotvel: false
 # The following parameters are relevant only for holonomic robots: New in ROS kinetic
-max_vel_y: 0.35
-acc_lim_y: 0.3
+max_vel_y: 0.65
+acc_lim_y: 0.6
 # The following parameters are relevant for the footprint model used for optimization (see Tutorial Obstacle Avoidance and Robot Footprint Model. New in version 0.3
 footprint_model:
   type: "circular"
@@ -101,7 +101,7 @@ switching_blocking_period: 0.0
 
 ## Miscellaneous Parameters
 odom_topic: "/naoqi_driver_node/odomTOCHANGE"
-map_frame: "map"
+map_frame: "odom"
 
 ##Planner type
 planner_type: 1
