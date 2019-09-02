@@ -11,14 +11,14 @@ footprint: [[0.18, -0.23], [-0.30, 0.0], [0.18, 0.23]]
 footprint_padding: 0.05
 rolling_window: true
 static_map: false
-transform_tolerance: 0.8
+transform_tolerance: 0.3
 plugins:
   - {name: static, type: "costmap_2d::StaticLayer"}
   - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
   - {name: inflater, type: "costmap_2d::InflationLayer"}
 obstacles:
   observation_sources: /navigation/extended_laser
-  /navigation/extended_laser: {data_type: LaserScan, expected_update_rate: 0.8, marking: true, clearing: true}
+  /navigation/extended_laser: {data_type: LaserScan, expected_update_rate: 0.5, marking: true, clearing: true}
   footprint_clearing_enabled: false
 inflater:
-  inflation_radius: 0.3
+  inflation_radius: 1.5

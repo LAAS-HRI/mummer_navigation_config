@@ -1,6 +1,8 @@
 image: ideapark_2sept.pgm
-resolution: 0.40363593
-origin: [63.377, -54.100, 1.57]
+resolution: 0.2857142857142857
+#resolution: 0.40363593
+#origin: [63.377, -54.100, 1.57]
+origin: [-25.71428571428571, -38.57142857142857, 0.0]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.196
