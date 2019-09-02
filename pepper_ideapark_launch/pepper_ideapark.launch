@@ -1,6 +1,6 @@
 <launch>
   <!-- start map_server with laas_adream map -->
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find mummer_navigation_config)/maps/ideapark_24june.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find mummer_navigation_config)/maps/ideapark_2sept.yaml"/>
 
   <!-- start static transform for localization, no need for AMCL in simulation -->
   <!--<node name="map_to_odom_static" pkg="tf" type="static_transform_publisher" args="0.0 0.0 0.0 0.0 0.0 0.0 /map /odom 50" />-->
