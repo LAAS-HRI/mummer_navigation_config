@@ -18,7 +18,7 @@ plugins:
   - {name: inflater, type: "costmap_2d::InflationLayer"}
 obstacles:
   observation_sources: /navigation/extended_laser
-  /navigation/extended_laser: {data_type: LaserScan, expected_update_rate: 0.5, marking: true, clearing: true}
+  /navigation/extended_laser: {data_type: LaserScan, expected_update_rate: 0.3, marking: true, clearing: true}
   footprint_clearing_enabled: false
 inflater:
   inflation_radius: 1.5

@@ -15,4 +15,4 @@ plugins:
 #  /scan: {data_type: LaserScan, expected_update_rate: 0.3, marking: true, clearing: true}
 #  footprint_clearing_enabled: false
 inflater:
-    inflation_radius: 0.3
+    inflation_radius: 0.2
