@@ -20,7 +20,7 @@
     <rosparam file="$(find mummer_navigation_config)/pepper_ideapark_move_base_config/local_costmap_params.yaml" command="load" ns="local_costmap" />
 
     <!-- load local planner parameters -->
-    <rosparam file="$(find mummer_navigation_config)/pepper_ideapark_move_base_config/new_teb_local_planner_params.yaml" command="load" ns="TebLocalPlannerROS" />
+    <rosparam file="$(find mummer_navigation_config)/pepper_ideapark_move_base_config/teb_local_planner_params.yaml" command="load" ns="TebLocalPlannerROS" />
   </node>
 
 </launch>
